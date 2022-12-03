@@ -1,129 +1,112 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css");
+
 @font-face {
     font-family: ramus;
     src: url(../ramus-font/RamusRegular-VGw8w.ttf);
 }
-
-.navbar-brand{
-    font-family: ramus;
-    font-size: 30px;
-    letter-spacing: 2px;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-h2, h3{
-    font-family: ramus;
-    font-weight: 900;
-    font-size: 50px;
+:root{
+    --primary: rgb(6, 17, 42);
+    --primary-light: rgba(6, 17, 42, 0.2);
+    --secondary: #5EA51D;
+    --accent: rgb(100, 149, 237);
+}
+body{
+    background-color: azure;
 }
 
-.top{
-    background-image: url(../images/image1.jpg);
-    min-height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* background-attachment: scroll; */
-}
-.top-sign{
-    background-image: url(../images/image2.jpg);
-    min-height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    /* background-size: cover; */
-    /* background-attachment: scroll; */
-}
+.top-home{
+    background-color: var(--primary);
+    height: 100%;
+    width: 100%;
 
-/* Path: css/style.css */
+}
 
 nav{
-    background-color: rgba(158, 73, 73, 0.3) !important;
-    /* height: 100%; */
-    width: 100%;
+    background-color: var(--primary-light) !important;
+    /* background-color: red; */
+    color: white !important;
     position: absolute;
     top: 0;
     left: 0;
     z-index: 1;
 }
 
-.search-div{
-    /* background-color: rgba(158, 73, 73, 0.3) !important; */
-    /* height: 100%; */
-    /* width: 80%; */
-    /* position: absolute; */
-    margin: auto;
-    margin-top: 20% !important;
-}
-
-.top-sign .search-div{
-    margin-top: 10% !important;
-    /* background-color: rgba(158, 73, 73, 0.5); */
-}
-.top-sign .search-div form{
-    width: 40%;
-    padding: 20px;
-    background-color: rgba(158, 73, 73, 0.6);
-    border-radius: 10px;
-}
-.top-sign .search-div form input{
-    margin: 5px;
-
-    /* width: 50%; */
-}
-
-.my-button{
-    background-color: #9e4949 !important;
+.navbar-brand{
+    font-family: ramus;
+    font-size: 30px;
+    letter-spacing: 2px;
     color: white !important;
 }
-.index-intro{
-    /* padding: 300px; */
-    background-color: #9e4949;
-    padding : 50px;
-    height: 100%;
+
+.mybtns{
+    background-color: var(--secondary) !important;
 }
 
-.index-intro .contact{
-    padding: 20px;
+.mybtns:hover{
+    background-color: var(--accent) !important;
+    /* color: var(--accent); */
 }
 
-.mid{
-    background-image: url(../images/image2.jpg);
-    min-height: 100vh;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 20px;
+h2, h3{
+    font-family: ramus;
+    /* font-weight: 900; */
+    /* font-size: 50px; */
+    color: var(--secondary);
+}
+.bi{
+    font-size: 2rem; 
+    color: var(--accent);
 }
 
-.mid .mid-card{
-    background-color: rgba(158, 73, 73, 0.6);
-    padding: 20px;
-    border-radius: 10px;
-    margin: 5px;
+.cont{
+    background-color: var(--primary);
     color: white;
 }
-
-.stars{
-    color: #dfdc27;
+.cont p{
+    color: grey;
 }
 
-.final{
-    background-image: url(../images/image6.jpg);
-    /* min-height: 100vh; */
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 20px;
+.cat{
+    padding: 50px;
 }
 
-.dash{
-    background-color: #9e4949;
+.cat:hover{
+    background-color: var(--secondary);
+    transition: 0.3s;
 }
 
-footer{
-    background-color: #9e4949;
+.places{
+    padding: 50px;
 }
+.places p{
+    color: var(--secondary);
+}
+.places p:hover{
+    background-color: var(--secondary);
+    color: white;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.featured{
+    background-color: rgb(230, 255, 255);
+}
+
+
+
+@media (min-width: 768px) {
+    .navbar-brand.abs
+        {
+            position: absolute;
+            width: auto;
+            left: 50%;
+            transform: translateX(-50%);
+            text-align: center;
+        }
+    }

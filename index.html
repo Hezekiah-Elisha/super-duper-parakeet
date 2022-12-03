@@ -4,183 +4,170 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <title>Home Page</title>
 
-    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-    <!-- // Add the new slick-theme.css if you want the default styling -->
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fonts/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-<div class="top">
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand text-light" href="#">The Rental Hub</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" href="#">Link</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light disabled">Disabled</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-              <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-            </form>
-          </div>
+    <div class="cont">
+        <div class="container">
+            <div class="row" >
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2 myicons">
+                            <i class="bi bi-map"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h6 class="text-left">Call us +1 234 456 78910</h6>
+                            <p class="text-left">Call Us Now 24/7 Customer Support</p>
+                        </div>      
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2 myicons">
+                            <i class="bi bi-send"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h6 class="text-left">Our Location</h6>
+                            <p class="text-left">Suite 721 New York NY 10016</p>
+                        </div>      
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-2 myicons">
+                            <i class="bi bi-person-plus"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <h6 class="text-left">Connect With us</h6>
+                            <p class="text-left">Suite 721 New York NY 10016</p>
+                        </div>      
+                    </div>
+                </div>
+            </div>
         </div>
-      </nav>
-      
-      <div class="search-div">
-        <h2 class="text-center text-light">Welcome to the Rental hub</h2>
-        
-        <form class="d-flex justify-content-between w-50 m-auto" role="">
-            <input class="form-control p-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn my-button" type="submit">Search</button>
-          </form>
-      </div>
-</div>
+    </div>
+    <div class="top-home">
+        <nav class="navbar navbar-expand-md navbar-dark">
+            <div class="container-fluid">
+                <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Property</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Agent</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="mx-auto order-0">
+                    <a class="navbar-brand mx-auto" href="#">The Rental Hub</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".dual-collapse2">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse w-100 order-3 dual-collapse2" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">
+                                <button class="btn mybtns">Place your property</button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>          
+    </div>
 
-    <main class="index-intro">
-      <h2 class="text-center">Houses showcase</h2>
-        <div class="houses container">
-            <div class="p-20">
-                <img src="./images/image2.jpg" class="img-fluid" alt="">
+    <main class="container">
+        <h2 class="text-center">Our category</h2>
+        <h1 class="text-center">Explore our categories and places</h1>
+        <div class="row">
+            <div class="col-md-4 cat">
+                <img src="./css/fonts/undraw_building_re_xfcm.svg" alt="" class="img-fluid">
             </div>
-            <div class="p-20">
-                <img src="./images/image1.jpg" class="img-fluid" alt="">
+            <div class="col-md-4 cat">
+                <img src="./css/fonts/undraw_choosing_house_re_1rv7.svg" alt="" class="img-fluid">
             </div>
-            <div class="p-20">
-                <img src="./images/image2.jpg" class="img-fluid" alt="">
-            </div>
-            <div class="p-20">
-                <img src="./images/image1.jpg" class="img-fluid" alt="">
+            <div class="col-md-4 cat">
+                <img src="./css/fonts/undraw_house_searching_re_stk8(1).svg" alt="" class="img-fluid">
             </div>
         </div>
+        <div class="row d-flex justify-content-center places">
+            <div class="col-md-4">
+                <h3 class="text-center text-dark">Place Name</h3>
+                <p class="text-center">N Properties</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-dark">Place Name</h3>
+                <p class="text-center">N Properties</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-dark">Place Name</h3>
+                <p class="text-center">N Properties</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-dark">Place Name</h3>
+                <p class="text-center">N Properties</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-dark">Place Name</h3>
+                <p class="text-center">N Properties</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-dark">Place Name</h3>
+                <p class="text-center">N Properties</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-dark">Place Name</h3>
+                <p class="text-center">N Properties</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-dark">Place Name</h3>
+                <p class="text-center">N Properties</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">Place Name</h3>
+                <p class="text-center">N Properties</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-dark">Place Name</h3>
+                <p class="text-center">N Properties</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-dark">Place Name</h3>
+                <p class="text-center">N Properties</p>
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center text-dark">Place Name</h3>
+                <p class="text-center">N Properties</p>
+            </div>
+        </div>
+
     </main>
 
-    <div class="mid">
-        <h2 class="text-center"> Most rated </h2>
-        <div class="row d-flex justify-content-around">
-          <div class="col-md-5 mid-card">
-            <div class="row">
-              <img src="./images/image1.jpg" class="img-fluid col-md-5" alt="">
-              <div class="col-md-5">
-                <h3>House 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
-                <div><span>Ratings:</span><span class="stars">&starf; &starf; &starf; &starf; &starf;</span></div>
-                <button class="btn my-button">View</button>
-              </div>
+    <div class="featured container">
+        <h2 class="text-center">Our houses</h2>
+        <h1 class="text-center">Featured Houses</h1>
+        <div class="row">
+            <div class="">
+                <img src="./images/image5.jpg" alt="">
             </div>
-          </div>
-          <div class="col-md-5 mid-card">
-            <div class="row">
-              <img src="./images/image1.jpg" class="img-fluid col-md-5" alt="">
-              <div class="col-md-5">
-                <h3>House 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
-                <div><span>Ratings:</span><span class="stars">&starf; &starf; &starf; &starf; &starf;</span></div>
-                <button class="btn my-button">View</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 mid-card">
-            <div class="row">
-              <img src="./images/image1.jpg" class="img-fluid col-md-5" alt="">
-              <div class="col-md-5">
-                <h3>House 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
-                <div><span>Ratings:</span><span class="stars">&starf; &starf; &starf; &starf; &starf;</span></div>
-                <button class="btn my-button">View</button>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-5 mid-card">
-            <div class="row">
-              <img src="./images/image1.jpg" class="img-fluid col-md-5" alt="">
-              <div class="col-md-5">
-                <h3>House 1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quae.</p>
-                <div><span>Ratings:</span><span class="stars">&starf; &starf; &starf; &starf; &starf;</span></div>
-                <button class="btn my-button">View</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      <div>
-
-      </div>
+        </div>        
     </div>
 
-    <div class="index-intro">
-      <div class="row contact">
-        <div class="col-md-6">
-          <h3>Want to more information on a house? Contact us</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto nostrum labore dignissimos vitae minus voluptate omnis quod suscipit! Id iste aut porro eligendi laboriosam ipsa vel consequatur. Soluta, ad eos!</p>
-        </div>
-        <div class="col-md-6">
-          <img src="./images/image4.jpg" class="img-fluid" alt="">
-        </div>
-      </div>
-
-    </div>
-
-    <div class="final">
-      <h3 class="text-center">Check out houses added latest</h3>
-
-      <div class="latest-houses">
-        <span>
-          <!-- <img src="./images/image1.jpg" alt="" class="img-fluid"> -->
-          message
-        </span>
-        <span>
-          <!-- <img src="./images/image2.jpg" alt="" class="img-fluid"> -->
-          your
-        </span>
-        <span>
-          <!-- <img src="./images/image3.jpg" alt="" class="img-fluid"> -->
-          friends
-        </span>
-      </div>
-    </div>
-
-    <footer class="row">
-      <div class="col-md-4">
-        <p>The Rental Hub</p>
-      </div>
-      <div class="col-md-4">
-        <p>Terms and conditions</p>
-      </div>
-      <div class="col-md-4">
-        <p>Privacy policy</p>
-      </div>
-      <p class="text-center">&copy; 2022</p>
-    </footer>
-      
-    
     <script src="./js/bootstrap.min.js"></script>
     <script src="./js/jquery.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="./js/script.js"></script>
+    <script src="./js/script.js"></script>      
 </body>
 </html>
