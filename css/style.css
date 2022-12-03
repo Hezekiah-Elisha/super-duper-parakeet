@@ -8,6 +8,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root{
@@ -137,6 +138,18 @@ h2, h3{
     color: white;
 }
 
+.overlay-tag{
+    position: absolute;
+    transform: translate(10%, -120%);
+    /* -ms-transform: translate(-50%, -50%); */
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.card-mg{
+    position: relative;
+}
+
 
 /* test */
 .the-card {
@@ -172,7 +185,32 @@ h2, h3{
     transition: 0.3s;
 }
 
+.self-ad{
+    background-color: var(--secondary);
+    color: white;
+    padding: 50px;
+}
 
+.ad-btn{
+    padding: 10px 5px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.footer{
+    background-color: var(--primary);
+    color: white;
+    padding: 50px;
+}
+
+.bi-f{
+    color: var(--secondary);
+}
+.social a:hover{
+    color: var(--secondary);
+    transition: 0.3s;
+}
 
 @media (min-width: 768px) {
     .navbar-brand.abs{
