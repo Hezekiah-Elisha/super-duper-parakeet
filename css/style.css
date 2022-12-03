@@ -248,6 +248,27 @@ label{
     width: 100%;
 }
 
+a{
+    text-decoration: none;
+    color: var(--secondary);
+}
+a:hover{
+    color: var(--accent);
+    transition: 0.3s;
+    text-decoration: underline;
+}
+
+.auth{
+    margin: 30px;
+    /* background-color: var(--primary); */
+    margin: 50px;
+}
+.side-auth{
+    /* background-color: azure; */
+    color: white;
+    padding: 50px;
+}
+
 @media (min-width: 768px) {
     .navbar-brand.abs{
         position: absolute;
