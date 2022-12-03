@@ -4,6 +4,12 @@
     font-family: ramus;
     src: url(../ramus-font/RamusRegular-VGw8w.ttf);
 }
+
+@font-face {
+    font-family: amsterdam_four;
+    src: url(./fonts/fonts/Amsterdam\ 400.ttf);
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -39,7 +45,7 @@ nav{
 }
 
 .navbar-brand{
-    font-family: ramus;
+    font-family: amsterdam_four;
     font-size: 30px;
     letter-spacing: 2px;
     color: white !important;
@@ -248,14 +254,26 @@ label{
     width: 100%;
 }
 
-a{
+a:not(.thisnot){
     text-decoration: none;
     color: var(--secondary);
 }
-a:hover{
+a:not(.thisnot):hover{
     color: var(--accent);
     transition: 0.3s;
     text-decoration: underline;
+}
+
+.aboutus{
+    background-image: url(../images/image2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.aboutus-side{
+    background-color: azure;
+    color: white;
+    padding: 50px;
 }
 
 .auth{
