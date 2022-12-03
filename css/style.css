@@ -212,6 +212,42 @@ h2, h3{
     transition: 0.3s;
 }
 
+
+.carousel-inner{
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+.home-form{
+    background-color: white;
+}
+
+.home-form i{
+    position: absolute;
+    font-size: 25px;
+    /* margin: 5px; */
+}
+.home-form input, .home-form select{
+    padding: 10px 10px 10px 40px;
+    border: none;
+    border-bottom: 1px solid grey;
+    width: 100%;
+    outline: none;
+}
+
+label{
+    color: var(--secondary);
+}
+
+.home-search{
+    background-color: var(--secondary);
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+}
+
 @media (min-width: 768px) {
     .navbar-brand.abs{
         position: absolute;
