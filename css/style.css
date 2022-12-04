@@ -57,7 +57,7 @@ nav{
 
 .mybtns:hover{
     background-color: var(--accent) !important;
-    /* color: var(--accent); */
+    color: white !important;
 }
 
 h2, h3{
@@ -213,6 +213,10 @@ h2, h3{
 .bi-f{
     color: var(--secondary);
 }
+.bi:hover{
+    color: var(--accent);
+    transition: 0.3s;
+}
 .social a:hover{
     color: var(--secondary);
     transition: 0.3s;
@@ -262,6 +266,10 @@ a:not(.thisnot):hover{
     color: var(--accent);
     transition: 0.3s;
     text-decoration: underline;
+}
+
+.mycards{
+    margin: 5px;
 }
 
 .aboutus{
